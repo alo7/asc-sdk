@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alo7.android",
+    "module": "asc-ext-blh",
+    "version": "0.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "6j2t7voqsvc7bddhzqvvy4x7jq"
+    }
+  },
+  "variants": [
+    {
+      "name": "blhReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "asc-ext-blh-0.2.0-SNAPSHOT.aar",
+          "url": "asc-ext-blh-0.2.0-SNAPSHOT.aar",
+          "size": 7075910,
+          "sha512": "91ec71d6c982a22cba73e854c6d82b00c594d28703ae5e0d29f450e2e10f143ec80a78b2ef1ab5616bea9375ec909d2c3c37587c4935163f7c8398ec19a22850",
+          "sha256": "669022771f9ba7b52aa5421dc5d044e16c270951fd24238209e2da3cb6189184",
+          "sha1": "27e8e28bd625408f44cf53641d1af6cea66eca37",
+          "md5": "6ace68bdfa147b34e38ffd8af3162ff3"
+        }
+      ]
+    },
+    {
+      "name": "blhReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.12"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "3.12.3"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "com.aliyun.sdk.android",
+          "module": "AliyunPlayer",
+          "version": {
+            "requires": "4.7.4-full"
+          }
+        },
+        {
+          "group": "com.alivc.conan",
+          "module": "AlivcConan",
+          "version": {
+            "requires": "0.9.5.1"
+          }
+        },
+        {
+          "group": "com.singsound.library",
+          "module": "evaluating",
+          "version": {
+            "requires": "2.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asc-ext-blh-0.2.0-SNAPSHOT.aar",
+          "url": "asc-ext-blh-0.2.0-SNAPSHOT.aar",
+          "size": 7075910,
+          "sha512": "91ec71d6c982a22cba73e854c6d82b00c594d28703ae5e0d29f450e2e10f143ec80a78b2ef1ab5616bea9375ec909d2c3c37587c4935163f7c8398ec19a22850",
+          "sha256": "669022771f9ba7b52aa5421dc5d044e16c270951fd24238209e2da3cb6189184",
+          "sha1": "27e8e28bd625408f44cf53641d1af6cea66eca37",
+          "md5": "6ace68bdfa147b34e38ffd8af3162ff3"
+        }
+      ]
+    }
+  ]
+}
